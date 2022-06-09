@@ -1,0 +1,30 @@
+* {
+    margin:0;
+    padding: 0;
+}
+
+.title {
+    color: rgb(90, 92, 92);
+    letter-spacing: 35px;
+    font-weight: bold !important;
+}
+
+.viñeta {
+    list-style: circle;
+    margin-top: 15px;
+}
+.textinline {
+    white-space: nowrap;
+   
+}
+
+li {
+    list-style: none;
+}
+
+@media (max-width: 768px ) {
+    .title {
+     font-size: 1.1rem !important;
+     letter-spacing: 15px;
+    }
+ }

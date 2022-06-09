@@ -1,0 +1,135 @@
+
+/* INDEX */
+/* Img welcome   --*/
+.welcome-img {
+    
+    background-image: url(../img/index-startv.2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 43.5rem;
+    position: relative;
+}
+
+.content-welcome-img {
+    position: absolute;
+    background-color: rgb(0 0 0 / 65%);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+    justify-content: center;
+}
+
+.content-welcome-img{
+    h2 {
+        color:white;
+    } 
+}
+
+.content-welcome-img{
+    p {
+        color:white;
+    } 
+}
+
+.ubicacion {
+    display: flex;
+    align-items:flex-end ;
+}
+
+.pres-1 {
+    font-size: 40px;
+    font-weight: 100;
+    letter-spacing: 3px;
+    font-family: sans-serif -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    background-color: #FFFFFF;
+}
+
+/* Button of contact start*/
+.boton {
+    background-color:#0D6EFD ;
+    color:white;
+    padding: 1rem 3rem;
+    margin-top: 1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: .5rem;
+}
+/* Button of contact end*/
+/* Image of welcome end --*/
+
+/* Section of service -- */
+.section__Border{
+    p{
+        color: black;
+    } 
+}
+
+.servicio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+}
+
+.servicio{
+    h2 {
+        color: rgb(63, 78, 65);
+        font-weight: normal;
+    } 
+}
+
+.servicio{
+    p {
+        line-height: 2;
+        text-align: center;
+        align-items: center;
+    } 
+}
+
+.servicio{
+
+    .iconos {
+        height: 15rem;
+        width: 15rem;
+        background-color: rgba(79, 154, 177, 0.705);
+        border-radius:180px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+} 
+
+
+.what {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    --bs-body-font-family: var(--bs-font-sans-serif);
+}
+
+.img_html {
+    background-image: url(../img/png-transparent-logo-html-html5.pngo);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1rem;
+    
+}
+
+/* Section of service end --*/
+  
+  @media (min-width:768px ) {
+    .servicios {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;       
+    }
+
+}
+
+@media (max-width:768px ) {
+    .servicios p{
+        width: 100%;     
+    }
+
+}
